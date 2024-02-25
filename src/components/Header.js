@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <React.Fragment>
-      <h1>Parks and Recreation Ballot Measure</h1>
+      <h1>Hood River Parks and Recreation Ballot Measure</h1>
       <ul>
         <li>
           <Link to="/">Home</Link>
