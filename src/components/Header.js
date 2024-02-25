@@ -1,30 +1,31 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Navbar, Nav } from "react-bootstrap";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome } from '@fortawesome/free-solid-svg-icons';
+import { FaTree } from "react-icons/fa";
 
 function Header() {
   return (
     <React.Fragment>
-      <header className="bg-dark text-white text-center p-4">
-        <h1>Hood River Parks and Recreation</h1>
-        <h2>May 2024 Ballot Measure</h2>
-      </header>
-      <ul className="nav bg-dark justify-content-center">
-        <li className="nav-item">
-          <Link to="/" className="nav-link text-white">Home</Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/donate" className="nav-link text-white">Donate</Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/about" className="nav-link text-white">About</Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/community-input" className="nav-link text-white">Community Input</Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/contact" className="nav-link text-white">Contact</Link>
-        </li>
-      </ul>
+      <Navbar bg="white" variant="white" expand="lg" className="justify-content-between"> 
+        <Navbar.Brand>
+          <img
+            src="/logo.png" 
+            alt="Parks and Rec Logo"
+            className="mr-2"
+            style={{ height: '30px' }} 
+          />
+          Hood River Parks and Recreation May 2024 Ballot
+        </Navbar.Brand>
+        <Nav className="mr-auto">
+          <Link to="/" className="nav-link">Home</Link>
+          <Link to="/donate" className="nav-link">Donate</Link>
+          <Link to="/about" className="nav-link">About</Link>
+          <Link to="/community-input" className="nav-link">Community Input</Link>
+          <Link to="/contact" className="nav-link">Contact</Link>
+        </Nav>
+      </Navbar>
     </React.Fragment>
   );
 }
