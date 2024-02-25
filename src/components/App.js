@@ -1,17 +1,15 @@
-import React from "react";
-import Header from "./Header";
-import PageControl from "./PageControl";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Header from './Header';
+import PageControl from './PageControl';
 
-
-function App(){
+function App() {
   return (
     <Router>
-      <Header />
-      <Routes>
-        {/* <Route path="/sign-in" element={<SignIn />} />
-        <Route path="/" element={<TicketControl />} /> */}
-      </Routes>
+      <div>
+        <Header />
+        <PageControl />
+      </div>
     </Router>
   );
 }

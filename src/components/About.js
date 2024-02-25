@@ -1,7 +1,11 @@
 import React from "react";
-import PropTypes from "prop-types";
 
-function Contact(props){
-
+function About() {
+  return (
+    <div>
+      <h2>Welcome to the About Page</h2>
+    </div>
+  );
 }
-export default Contact;
+
+export default About;

@@ -1,7 +1,11 @@
 import React from "react";
-import PropTypes from "prop-types";
 
-function Donate(props){
-
+function Donate() {
+  return (
+    <div>
+      <h2>Welcome to the Donate Page</h2>
+    </div>
+  );
 }
+
 export default Donate;
