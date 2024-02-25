@@ -3,22 +3,31 @@ import { Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome } from '@fortawesome/free-solid-svg-icons';
-import { FaTree } from "react-icons/fa";
 
 function Header() {
   return (
     <React.Fragment>
-      <Navbar bg="white" variant="white" expand="lg" className="justify-content-between"> 
+      <Navbar bg="white" variant="white" expand="lg" className="justify-content-between align-items-center"> 
         <Navbar.Brand>
-          <img
-            src="/logo.png" 
-            alt="Parks and Rec Logo"
-            className="mr-2"
-            style={{ height: '30px' }} 
-          />
-          Hood River Parks and Recreation May 2024 Ballot
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <img
+              src="/logo.png" 
+              alt="Parks and Rec Logo"
+              className="mr-2"
+              style={{ height: '150px', marginRight: '20px' }}
+            />
+            <div>
+              <span style={{ fontSize: '50px' }}>
+                Hood River Parks and Recreation District
+              </span>
+              <br />
+              <span style={{ fontSize: '40px' }}>
+                May 21, 2024 Election
+              </span>
+            </div>
+          </div>
         </Navbar.Brand>
-        <Nav className="mr-auto">
+        <Nav className="ml-auto">
           <Link to="/" className="nav-link">Home</Link>
           <Link to="/donate" className="nav-link">Donate</Link>
           <Link to="/about" className="nav-link">About</Link>

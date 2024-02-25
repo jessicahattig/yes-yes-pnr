@@ -4,6 +4,9 @@ import Carousel from 'react-bootstrap/Carousel';
 function Home() {
   return (
     <div>
+    <div style={{ marginTop: '20px' }}>
+    <h4>Discover the vision for the future</h4>
+    </div>
       <Carousel interval={3000}>
         <Carousel.Item>
           <img
@@ -28,8 +31,20 @@ function Home() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-    </div>
+      </div>
+    
   );
 }
 
 export default Home;
+ {/* <ul>
+    <li>Capital Bond to build a state-of-the-art pool with a community center</li>
+    <li>Funding for the enhancement of parks and trails</li>
+    <li>Supported by Operation Levy, ensuring continued support for:</li>
+    <ul>
+      <li>Recreation programming</li>
+      <li>Park services</li>
+      <li>Recreation facilities</li>
+    </ul>
+  </ul>
+  <p>Together, these measures will create a vibrant and thriving community space for everyone.</p> */}

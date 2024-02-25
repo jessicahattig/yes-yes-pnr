@@ -11,6 +11,7 @@ body {
 }
 
 header {
+  font-size: 24px;
   background-color: #ffffff;
   color: #000000;
   padding: 20px;
@@ -29,7 +30,8 @@ ul {
   padding: 0;
   margin: 0;
   display: flex;
-  background-color: #ffffff; 
+  background-color: #ffffff;
+  justify-content: space-between; 
 }
 
 li {
@@ -38,9 +40,9 @@ li {
 
 a {
   text-decoration: none;
-  color: #000000; 
+  color: #000000;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px; 
 }
 
 a:hover {
