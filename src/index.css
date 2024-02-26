@@ -48,3 +48,17 @@ a {
 a:hover {
   color: #ffd700;
 }
+
+.ml-auto .nav-link {
+  /* color: rgb(41, 37, 37); */
+}
+
+/* //Carousel */
+.carousel-item img {
+  max-height: 300px; 
+  object-fit: cover; 
+}
+/* .slide2 {
+  background-color: #ffffff;
+  color: #000000;
+} */

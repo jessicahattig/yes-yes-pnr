@@ -4,30 +4,47 @@ import Carousel from 'react-bootstrap/Carousel';
 function Home() {
   return (
     <div>
-    <div style={{ marginTop: '20px' }}>
+    <div style={{ marginTop: '50px' }}>
     <h4>Discover the vision for the future</h4>
     </div>
-      <Carousel interval={3000}>
+      <Carousel interval={4000}>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="your-image-url-1.jpg"
+            src="damagedPool.png"
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First photo label</h3>
-            <p>lorem ipsum.</p>
+          <h2>Secure Funding to Replace Aging Community Pool</h2>
+          <p>Each year, 1,500+ children participate in swim lessons.</p>
+          <p>The pool pipes and foundation, aged 76 years, urgently need updates. The pool tent cover has surpassed its expected lifespan by 7-10 years.</p> 
+          
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="your-image-url-2.jpg"
+            src="littleballer.png"
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h3>Second photo label</h3>
-            <p>lorem ipsum</p>
+            <div className='slide2'>
+            <h2>Obtain financing to build a new community center.</h2>
+            <p>Over 3,200 individuals, including both youth and adults, enrolled in HRVPRD recreation programs in 2023.</p>
+            </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="natural.png"
+            alt="Third slide"
+          />
+          <Carousel.Caption>
+            <div className='slide3'>
+            <h2>Obtain financing to build a new pool with community center.</h2>
+            <p>Over 3,200 individuals, including both youth and adults, enrolled in HRVPRD recreation programs in 2023.</p>
+            </div>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
