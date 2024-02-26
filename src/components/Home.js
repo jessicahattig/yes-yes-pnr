@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 function Home() {
   return (
     <div>
-    <div style={{ marginTop: '50px' }}>
+    <div className='ComponentHeader'>
     <h4>Discover the vision for the future</h4>
     </div>
       <Carousel interval={4500}>

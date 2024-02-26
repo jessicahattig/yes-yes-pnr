@@ -2,7 +2,7 @@ import React from "react";
 
 function Donate() {
   return (
-    <div>
+    <div className="ComponentHeader">
       <h2>Welcome to the Donate Page</h2>
       <img
         src="/under-construction.jpg" //need to customize
