@@ -7,7 +7,7 @@ function Home() {
     <div style={{ marginTop: '50px' }}>
     <h4>Discover the vision for the future</h4>
     </div>
-      <Carousel interval={4000}>
+      <Carousel interval={4500}>
         <Carousel.Item>
           <img
             className="d-block w-100"
@@ -15,9 +15,10 @@ function Home() {
             alt="First slide"
           />
           <Carousel.Caption>
-          <h2>Secure Funding to Replace Aging Community Pool</h2>
-          <p>Each year, 1,500+ children participate in swim lessons.</p>
-          <p>The pool pipes and foundation, aged 76 years, urgently need updates. The pool tent cover has surpassed its expected lifespan by 7-10 years.</p>
+          <h2>Secure Funding to Renew Our Aging Community Pool</h2>
+          <p>Annually, over 1,500 children participate in swim lessons.</p>
+          <p>The pool pipes and foundation, aged 76 years, are in urgent need of updates. Additionally, the pool tent cover has exceeded its expected lifespan by 7-10 years.</p>
+
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -28,7 +29,7 @@ function Home() {
           />
           <Carousel.Caption>
             <div className='slide2'>
-            <h2>Obtain financing to build a new community center.</h2>
+            <h2>Obtain Financing to Build a New Community Center.</h2>
             <p>Over 3,200 individuals, including both youth and adults, enrolled in HRVPRD recreation programs in 2023.</p>
             </div>
           </Carousel.Caption>
@@ -41,8 +42,9 @@ function Home() {
           />
           <Carousel.Caption>
             <div className='slide3'>
-            <h2>Help protect the natural environment.</h2>
-            <p>34 acres of parkland secured since 2020 for preservation, development, and trail connections. Say yes to securing more.</p>
+            <h2>Support the Ongoing Preservation of Our Natural Environment</h2>
+            <p>Since 2020, we've successfully secured 34 acres of parkland for preservation, development, and trail connections. With your support, we aim to continue preserving more.</p>
+
             </div>
           </Carousel.Caption>
         </Carousel.Item>

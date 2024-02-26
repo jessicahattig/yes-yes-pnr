@@ -55,10 +55,12 @@ a:hover {
 
 /* //Carousel */
 .carousel-item img {
-  max-height: 300px; 
+  max-height: 550px; 
   object-fit: cover; 
 }
-/* .slide2 {
-  background-color: #ffffff;
-  color: #000000;
-} */
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white;
+  padding: 20px;
+}
