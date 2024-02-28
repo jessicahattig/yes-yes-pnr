@@ -59,6 +59,7 @@ a:hover {
 
 .ml-auto .nav-link {
   /* color: rgb(41, 37, 37); */
+  margin: 30px; 
 }
 
 /* //Carousel */
@@ -70,5 +71,7 @@ a:hover {
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); 
   color: white;
-  padding: 20px;
+  /* width: 50%; */
+  padding: 350px;
+  margin: auto;
 }

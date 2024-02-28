@@ -11,14 +11,14 @@ function Home() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="damagedPool.png"
+            src="aerialphoto.png"
             alt="First slide"
           />
           <Carousel.Caption>
-          <h2>Secure Funding to Renew Our Aging Community Pool</h2>
-          <p>Annually, over 1,500 children participate in swim lessons.</p>
-          <p>The pool pipes and foundation, aged 76 years, are in urgent need of updates. Additionally, the pool tent cover has exceeded its expected lifespan by 7-10 years.</p>
-
+          <h1>VOTE YES-YES</h1>
+          <br></br>
+          <h2>To Fund The Replacement of the Community Pool & </h2>
+          <h2>Invest in Parks, Trails, and Recreation</h2>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
