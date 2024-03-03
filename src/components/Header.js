@@ -17,15 +17,19 @@ function Header() {
               style={{ height: '150px', marginRight: '20px' }}
             />
             <div>
+            <div style={{ display: 'flex', alignItems: 'center' }}>
+            <div>
               <span style={{ fontSize: '50px' }}>
                 Hood River Parks and Recreation District
               </span>
-              <br />
+              </div>
+              <br/>
+              </div>
               <span style={{ fontSize: '40px' }}>
-                May 21, 2024 Election
+                Political Action Committey
               </span>
-            </div>
           </div>
+            </div>
         </Navbar.Brand>
         <Nav className="ml-auto">
           <Link to="/" className="nav-link">HOME</Link>
