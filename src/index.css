@@ -117,3 +117,8 @@ footer {
   max-width: 100%;
   height: auto;
 }
+
+/* About */
+.custom-heading {
+  margin-bottom: 20px; 
+}

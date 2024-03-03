@@ -18,7 +18,11 @@ function Home() {
           <Carousel.Caption>
           <h1>VOTE YES-YES</h1>
           <h2>on May 2024 Ballot </h2>
-          <h2>Capital Bond and Operation Levy Measures</h2>
+          <h2>Capital Bond</h2>
+          <h2>and</h2>
+          <h2>Operation Levy Measures</h2>
+          <br></br>
+          <br></br>
           <br></br>
           <h1>Invest in Parks, Trails, and Recreation</h1>
           </Carousel.Caption>

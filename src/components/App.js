@@ -4,6 +4,8 @@ import Header from './Header';
 import Footer from "./Footer";
 import PageControl from './PageControl';
 import "./../index.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
