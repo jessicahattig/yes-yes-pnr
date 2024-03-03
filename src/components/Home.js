@@ -30,7 +30,7 @@ function Home() {
           />
           <Carousel.Caption>
             <div className='slide2'>
-            <h2>Secure Funding to Renew Our Aging Community Pool</h2>
+            <h2>Secure funding to renew our aging community pool</h2>
             </div>
           </Carousel.Caption>
           </Carousel.Item>
@@ -42,7 +42,7 @@ function Home() {
           />
           <Carousel.Caption>
             <div className='slide3'>
-            <h2>Obtain Financing to Build a New Community Center.</h2>
+            <h2>Obtain financing to build a new community center.</h2>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -54,7 +54,7 @@ function Home() {
           />
           <Carousel.Caption>
             <div className='slide4'>
-            <h2>Support the Ongoing Preservation of Our Natural Environment</h2>
+            <h2>Support the ongoing preservation of our natural environment</h2>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
