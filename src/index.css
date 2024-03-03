@@ -66,10 +66,11 @@ a:hover {
 .carousel-item img {
   max-height: 550px; 
   object-fit: cover; 
+  
 }
 
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5); 
+  background-color: rgba(2, 61, 12, 0.5); 
   color: white;
   /* width: 50%; */
   padding: 350px;

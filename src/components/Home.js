@@ -30,7 +30,7 @@ function Home() {
           />
           <Carousel.Caption>
             <div className='slide2'>
-            <h2>Secure funding to renew our aging community pool</h2>
+            <h2>Secure funding to renew our aging community pool.</h2>
             </div>
           </Carousel.Caption>
           </Carousel.Item>

@@ -10,12 +10,13 @@ function Header() {
       <Navbar bg="white" variant="white" expand="lg" className="justify-content-between align-items-center"> 
         <Navbar.Brand>
           <div style={{ display: 'flex', alignItems: 'center' }}>
+          <Link to="/Home">
             <img
               src="/logo.png" 
               alt="Parks and Rec Logo"
               className="mr-2"
               style={{ height: '150px', marginRight: '20px' }}
-            />
+            /></Link>
             <div>
             <div style={{ display: 'flex', alignItems: 'center' }}>
             <div>
