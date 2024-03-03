@@ -14,10 +14,10 @@ function Footer() {
         <a href="https://www.instagram.com/yesyespnr" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faInstagram} size="2x" style={{ margin: '0 10px', color: '#000' }} />
         </a>
-              {/* Facebook icon and link */}
-      <a href="https://www.facebook.com/yesyespnr" target="_blank" rel="noopener noreferrer">
-        <FontAwesomeIcon icon={faFacebook} size="2x" style={{ margin: '0 10px', color: '#000' }} />
-      </a>
+                {/* Facebook icon and link
+        <a href="https://www.facebook.com/yesyespnr" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faFacebook} size="2x" style={{ margin: '0 10px', color: '#000' }} />
+        </a> */}
 
       </div>
       <p>&copy; 2024 Hood River Valley Parks and Recreation District Political Action Committee. All rights reserved.</p>

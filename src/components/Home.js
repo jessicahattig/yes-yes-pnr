@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
+import Events from "./Events";
 
 function Home() {
   return (
@@ -16,9 +17,9 @@ function Home() {
           />
           <Carousel.Caption>
           <h1>VOTE YES-YES</h1>
+          <h2>on May 2024 Ballot </h2>
+          <h2>Capital Bond and Operation Levy Measures</h2>
           <br></br>
-          <h2>on Capital Bond and Operation Levy</h2>
-          <h2>by May 21, 2024</h2>
           <h1>Invest in Parks, Trails, and Recreation</h1>
           </Carousel.Caption>
         </Carousel.Item>
@@ -59,6 +60,7 @@ function Home() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <Events />
       </div>
   );
 }
