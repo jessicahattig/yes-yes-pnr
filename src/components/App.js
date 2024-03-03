@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Header from './Header';
+import Footer from "./Footer";
 import PageControl from './PageControl';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <div>
         <Header />
         <PageControl />
+        <Footer />
       </div>
     </Router>
   );

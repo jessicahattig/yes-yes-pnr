@@ -5,7 +5,7 @@ function Home() {
   return (
     <div>
     <div className='ComponentHeader'>
-    <h4>Discover the vision for the future</h4>
+    <h4>Discover the vision for the future.</h4>
     </div>
       <Carousel interval={4500}>
         <Carousel.Item>
@@ -17,20 +17,32 @@ function Home() {
           <Carousel.Caption>
           <h1>VOTE YES-YES</h1>
           <br></br>
-          <h2>To Fund The Replacement of the Community Pool & </h2>
-          <h2>Invest in Parks, Trails, and Recreation</h2>
+          <h2>on Capital Bond and Operation Levy</h2>
+          <h2>by May 21, 2024</h2>
+          <h1>Invest in Parks, Trails, and Recreation</h1>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="littleballer.png"
-            alt="Second slide"
+            src="damagedPool.png"
+            alt="Two slide"
           />
           <Carousel.Caption>
             <div className='slide2'>
+            <h2>Secure Funding to Renew Our Aging Community Pool</h2>
+            </div>
+          </Carousel.Caption>
+          </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="littleballer.png"
+            alt="Third slide"
+          />
+          <Carousel.Caption>
+            <div className='slide3'>
             <h2>Obtain Financing to Build a New Community Center.</h2>
-            <p>Over 3,200 individuals, including both youth and adults, enrolled in HRVPRD recreation programs in 2023.</p>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -38,13 +50,11 @@ function Home() {
           <img
             className="d-block w-100"
             src="natural.png"
-            alt="Third slide"
+            alt="Fourth slide"
           />
           <Carousel.Caption>
-            <div className='slide3'>
+            <div className='slide4'>
             <h2>Support the Ongoing Preservation of Our Natural Environment</h2>
-            <p>Since 2020, we've successfully secured 34 acres of parkland for preservation, development, and trail connections. With your support, we aim to continue preserving more.</p>
-
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -54,3 +64,8 @@ function Home() {
 }
 
 export default Home;
+
+
+// <br></br>
+// <h2>To Fund The Replacement of the Community Pool & </h2>
+// <h2>Invest in Parks, Trails, and Recreation</h2>

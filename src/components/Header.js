@@ -20,13 +20,13 @@ function Header() {
             <div style={{ display: 'flex', alignItems: 'center' }}>
             <div>
               <span style={{ fontSize: '50px' }}>
-                Hood River Parks and Recreation District
+              Hood River Valley Parks and Recreation District 
               </span>
               </div>
               <br/>
               </div>
               <span style={{ fontSize: '40px' }}>
-                Political Action Committey
+              Political Action Committee
               </span>
           </div>
             </div>
