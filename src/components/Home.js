@@ -59,12 +59,13 @@ function Home() {
           />
           <Carousel.Caption>
             <div className='slide4'>
-            <h2>Support the ongoing preservation of our natural environment</h2>
+            <h2>Support the ongoing preservation of our natural environment.</h2>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
       <Events />
+      
       </div>
   );
 }
