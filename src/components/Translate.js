@@ -1,26 +1,28 @@
-import React, { useEffect } from 'react';
-import { Helmet } from 'react-helmet';
+import { useEffect } from "react";
 
 const Translate = () => {
+  const googleTranslateElementInit = () => {
+    new window.google.translate.TranslateElement(
+      {
+        pageLanguage: "en",
+        autoDisplay: false
+      },
+      "google_translate_element"
+    );
+  };
   useEffect(() => {
-    function googleTranslateElementInit() {
-      new window.google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
-    }
-
-    const script = document.createElement('script');
-    script.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
-    script.async = true;
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    };
+    var addScript = document.createElement("script");
+    addScript.setAttribute(
+      "src",
+      "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    );
+    document.body.appendChild(addScript);
+    window.googleTranslateElementInit = googleTranslateElementInit;
   }, []);
-
   return (
-    <Helmet>
-      <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript" async />
-    </Helmet>
+    <>
+      <div id="google_translate_element"></div>
+    </>
   );
 };
 
