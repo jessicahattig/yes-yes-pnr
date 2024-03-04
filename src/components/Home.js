@@ -65,14 +65,8 @@ function Home() {
         </Carousel.Item>
       </Carousel>
       <Events />
-      
       </div>
   );
 }
 
 export default Home;
-
-
-// <br></br>
-// <h2>To Fund The Replacement of the Community Pool & </h2>
-// <h2>Invest in Parks, Trails, and Recreation</h2>

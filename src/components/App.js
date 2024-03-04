@@ -3,8 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import Header from './Header';
 import Footer from './Footer';
-import PageControl from './PageControl';
-import Translate from './Translate';  
+import PageControl from './PageControl'; 
 import './../index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -18,7 +17,6 @@ function App() {
       <div>
         <Header />
         <PageControl />
-        <Translate />
         <Footer />
       </div>
     </Router>
