@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
-import Translate from "./Translate";
+// import Translate from "./Translate";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome } from '@fortawesome/free-solid-svg-icons';
 
@@ -41,7 +41,7 @@ function Header() {
           <Link to="/donate" className="nav-link">DONATE</Link>
         </Nav>
       </Navbar>
-      <Translate />
+      {/* <Translate /> */}
     </React.Fragment>
   );
 }
