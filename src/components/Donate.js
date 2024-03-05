@@ -4,7 +4,7 @@ import Translate from "./Translate";
 function Donate() {
   return (
     <div className="ComponentHeader">
-      <h2>Under Construction</h2>
+      <h2>Donate Page Section is Under Construction.</h2>
       </div>
   );
 }
