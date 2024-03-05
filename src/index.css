@@ -57,9 +57,11 @@ a:hover {
   color: #ffd700;
 }
 
+/* Header */
+/* //Navbar */
 .ml-auto .nav-link {
-  /* color: rgb(41, 37, 37); */
   margin: 30px; 
+  font-size:large;
 }
 
 /* //Carousel */
@@ -165,3 +167,8 @@ footer {
   margin-bottom: 10px; 
 }
 
+/* Device Views */
+/* @media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  /* Example: reduce font size, change layout, etc. */
+/* } */ 
