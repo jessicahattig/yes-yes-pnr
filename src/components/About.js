@@ -13,10 +13,7 @@ const About = () => {
         <p><strong>Develop Westside Park,</strong> including new multi-purpose field for softball, baseball, soccer, & lacrosse, picnicking, trails, & a natural park on 20 acres on Fairview and Belmont (near Westside School).</p>
         <p><strong>Purchase & Preserve Parkdale Park</strong> as a community park. This land is zoned commercial & privately owned. HRVPRD has an exclusive option to purchase the property.</p>
         <p><strong>Construct Key Trail Connections.</strong> Connect the missing links on The Indian Creek Trail & Westside Community Trail to create walking access from downtown to Barrett Dr. & from Westside School to the Skate Park.</p>
-        <p>2023: HRVPRD Board considers multiple
-          packages and funding measures to address
-          community needs. (Pool with community center,
-          trails, park improvements, recreation).</p>
+
         <br />
 <p><strong>Length:</strong> 25 Years</p>
 <p><strong>Tax Rate:</strong> $1.27per $1,000 Assessed Value</p>
@@ -34,8 +31,8 @@ const About = () => {
         <p><strong>Operate an Expanded Pool with Community
 Center.</strong> The new pool will be bigger with more amenities and need more supplies, utilities, chemicals, & staff (lifeguards, front
 desk).</p>
-        <p><strong>PProvide recreation opportunities for youth
-& adults.</strong>In 2021 HRVPRD entered an agreement with the School District to transfer community education (Recreation Programing) to the district. That agreement funded two employees through Sept 24.</p>
+        <p><strong>Provide recreation opportunities for youth
+& adults.</strong> In 2021 HRVPRD entered an agreement with the School District to transfer community education (Recreation Programing) to the district. That agreement funded two employees through September 2024.</p>
 <br />
 <p><strong>Length:</strong> 5 Years (will need renewal)</p>
 <p><strong>Tax Rate:</strong> $0.43 per $1,000 Assessed Value</p>
@@ -44,28 +41,55 @@ desk).</p>
             </div>
         </div>
       </div>
-      <h2>Community Engagement & Solution Finding</h2>
-      <ul>
-        <li>2017: Pool Study found the pool had 3-5 years
-          left of useful life & gave options for replacement.</li>
-        <li>2020: Parks Master Plan created & accepted by
-          HRVPRD, City, County, Port, & School District,
-          with significant community input.</li>
-        <li>2021 Westside Park Study determined whether
-          land was suitable for a park. Results of study &
-          feedback led HRVPRD board to purchase the 20
-          acres identified in Parks Master Plan for future park development.</li>
-        <li>2017-2023 - Extensive Community Input
-          received through stakeholder interviews,
-          multiple English & Spanish focus groups, tabling
-          events, local group meetings, online surveys,
-          open houses, & two statistically valid surveys.</li>
-        <li>2023: HRVPRD Board considers multiple
-          packages and funding measures to address
-          community needs. (Pool with community center,
-          trails, park improvements, recreation).</li>
-        <li>Combination of two ballot measures are referred to voters or the May 2024 election.</li>
-      </ul>
+      {/* <h2>Community Engagement & Solution Finding</h2>
+      <ul className="timeline">
+  <li className="timeline-item mb-5">
+    <h5 className="fw-bold">Pool Study found the pool had 3-5 years</h5>
+    <p className="text-muted mb-2 fw-bold">2017</p>
+    <p className="text-muted">
+      left of useful life & gave options for replacement.
+    </p>
+  </li>
+  <li className="timeline-item mb-5">
+    <h5 className="fw-bold">Parks Master Plan</h5>
+    <p className="text-muted mb-2 fw-bold">2020</p>
+    <p className="text-muted">
+      created & accepted by HRVPRD, City, County, Port, & School District, with significant community input.
+    </p>
+  </li>
+  <li className="timeline-item mb-5">
+    <h5 className="fw-bold">Westside Park Study</h5>
+    <p className="text-muted mb-2 fw-bold">2021</p>
+    <p className="text-muted">
+      determined whether land was suitable for a park. Results of study & feedback led HRVPRD board to purchase the 20 acres identified in Parks Master Plan for future park development.
+    </p>
+  </li>
+  <li className="timeline-item mb-5">
+    <h5 className="fw-bold">Extensive Community Input</h5>
+    <p className="text-muted mb-2 fw-bold">2017-2023</p>
+    <p className="text-muted">
+      through stakeholder interviews, multiple English & Spanish focus groups, tabling events, local group meetings, online surveys, open houses, & two statistically valid surveys.
+    </p>
+  </li>
+  <li className="timeline-item mb-5">
+    <h5 className="fw-bold">HRVPRD Board considers</h5>
+    <p className="text-muted mb-2 fw-bold">2023</p>
+    <p className="text-muted">
+      multiple packages and funding measures to address community needs. (Pool with community center, trails, park improvements, recreation).
+    </p>
+  </li>
+  <li className="timeline-item mb-5">
+    <h5 className="fw-bold">HRVPRD Board identifies Bond & Operational Levy as:</h5>
+    <p className="text-muted mb-2 fw-bold">2024</p>
+    <p className="text-muted">
+      1) An option that can achieve the identified goals. 2) Most likely to be supported by a majority of voters.
+    </p>
+  </li>
+  <li className="timeline-item mb-5">
+    <h5 className="fw-bold">Combination of two ballot measures are referred to voters for the May 2024 election.</h5>
+    <p className="text-muted mb-2 fw-bold">2024</p>
+  </li>
+</ul> */}
     </div>
   );
 };

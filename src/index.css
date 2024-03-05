@@ -15,8 +15,9 @@ header {
   font-size: 24px;
   background-color: #ffffff;
   color: #000000;
-  padding: 20px;
+  padding: 20px 40px; 
   text-align: center;
+  min-width: 300px;
 }
 
 .ComponentHeader {
@@ -40,7 +41,7 @@ ul {
   margin: 0;
   display: flex;
   background-color: #ffffff;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 li {
@@ -51,7 +52,7 @@ a {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
-  font-size: 18px; 
+  font-size: 18px;
 }
 
 a:hover {
@@ -61,19 +62,19 @@ a:hover {
 /* Header */
 /* //Navbar */
 .ml-auto .nav-link {
-  margin: 30px; 
-  font-size:large;
+  margin: 30px;
+  font-size: large;
 }
 
 /* //Carousel */
 .carousel-item img {
-  max-height: 550px; 
-  object-fit: cover; 
-  
+  max-height: 550px;
+  object-fit: cover;
+
 }
 
 .carousel-caption {
-  background-color: rgba(2, 61, 12, 0.5); 
+  background-color: rgba(2, 61, 12, 0.5);
   color: white;
   /* width: 50%; */
   padding: 350px;
@@ -86,7 +87,7 @@ footer {
   padding: 20px;
   text-align: center;
   position: relative;
-  clear: both; 
+  clear: both;
   width: 100%;
 }
 
@@ -95,7 +96,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  padding-right: 20px; 
 }
 
 .TextContainer {
@@ -103,12 +104,13 @@ footer {
   text-align: left;
   text-align: center;
   font-size: 30px;
+  padding-right: 20px; 
 }
 
 .EmailLink {
   color: blue;
   cursor: pointer;
-  text-decoration: underline; 
+  text-decoration: underline;
   font-weight: bold;
 }
 
@@ -125,49 +127,55 @@ footer {
 /* About */
 .about-section {
   background-color: rgba(2, 61, 12, 0.5);
-  padding: 40px; 
+  padding: 40px;
 }
 
-.about-section h1 {
-  color:#0a2e10;
-}
-
-.about-section h4 {
-  color: #0a2e10;
-}
-
-.about-section h2 {
-  color: #0a2e10;
-}
+.about-section h1,
+.about-section h4,
+.about-section h2,
 .about-section p {
-  color: #0a2e10;; 
+  color: #0a2e10;
+  ;
 }
 
 .about-section h1 {
   font-size: 2.5em;
+  text-align: center;
   margin-bottom: 20px;
 }
 
 .about-section h4 {
-  font-size: 1.8em; 
+  font-size: 1.8em;
+  text-align: center;
   margin-bottom: 15px;
 }
 
+.about-section strong {
+  font-weight: bold;
+}
+
 .about-section div.lead {
-  font-size: 1.2em; 
+  font-size: 1.2em;
   color: #ffffff;
   margin-bottom: 20px;
-  
+  display: flex;
+}
+
+.about-section .row {
+  align-items: stretch;
+}
+
+.about-section .col-md-6 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .about-section ul {
-  /* display: flex;
-  flex-direction: column;
-  align-items: flex-start; */
-  list-style-type: square; 
-  padding: 20px; 
-  font-size: 1.2em; 
-  margin-top: 20px; 
+  /* list-style-type: square; */
+  /* padding: 20px; */
+  font-size: 1.2em;
+  margin-top: 20px;
   display: block;
 }
 
@@ -176,11 +184,56 @@ footer {
 }
 
 .about-section li {
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
+}
+
+
+
+/* About
+Timeline */
+.timeline {
+  position: relative;
+  list-style: none;
+}
+
+.timeline .timeline-item {
+  position: relative;
+  padding-left: 40px;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-item:after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  background-color: #343a40; 
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+}
+
+.timeline:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 20px; 
+  height: 100%;
+  width: 2px; 
+  background-color: #343a40; 
+  z-index: -1;
 }
 
 /* Device Views */
-/* @media (max-width: 768px) {
-  /* Adjust styles for smaller screens */
-  /* Example: reduce font size, change layout, etc. */
-/* } */ 
+@media (max-width: 576px) {
+  header {
+    padding: 20px 20px; 
+  }
+}
