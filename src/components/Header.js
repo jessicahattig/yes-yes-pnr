@@ -35,8 +35,8 @@ function Header() {
         </Navbar.Brand>
         <Nav className="ml-auto">
           <Link to="/" className="nav-link">HOME</Link>
-          <Link to="/about" className="nav-link">INFO ON BALLOT MEASURES</Link>
-          <Link to="/community-input" className="nav-link">COMMUNITY INPUT</Link>
+          <Link to="/about" className="nav-link">BALLOT MEASURE DETAILS</Link>
+          <Link to="/pac-about" className="nav-link">ABOUT HRVPRD</Link>
           <Link to="/contact" className="nav-link">CONTACT</Link>
           <Link to="/donate" className="nav-link">DONATE</Link>
         </Nav>

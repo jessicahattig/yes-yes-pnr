@@ -17,7 +17,6 @@ function App() {
 
       <div>
         <Header />
-        {/* <Translate /> */}
         <PageControl />
         <Footer />
       </div>

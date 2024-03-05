@@ -4,7 +4,7 @@ import About from './About';
 import Contact from './Contact';
 import Donate from './Donate';
 import Home from './Home';
-import CommunityInput from './CommunityInput';
+import PacAbout from './PacAbout';
 
 
 function PageControl() {
@@ -13,7 +13,7 @@ function PageControl() {
       <Route path="/" element={<Home />} />
       <Route path="/donate" element={<Donate />} />
       <Route path="/about" element={<About />} />
-      <Route path="/community-input" element={<CommunityInput />} />
+      <Route path="/pac-about" element={<PacAbout />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<Navigate to="/" />} />
     </Routes>
