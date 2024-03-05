@@ -8,7 +8,7 @@ const Events = () => {
         <li>
           <strong> Big Night in A Small Town</strong> - A thoughtfully curated, fine dining experience fundraiser dinner for Hood River Valley Parks and Recreation Campaign.
           <br />
-          5 courses, plus beer and wine. $250/plate, only 50 tickets available. <a href='https://www.eventbrite.com/e/big-night-a-local-feast-tickets-811439396077?aff=oddtdtcreator'>Click here for tickets</a>
+          5 courses, plus beer and wine. $250/plate, only 33 tickets remaining. <a href='https://www.eventbrite.com/e/big-night-a-local-feast-tickets-811439396077?aff=oddtdtcreator'>Click here to purchase tickets</a>
           <br />
           <strong>Location:</strong> Celilo Restaurant at 16 Oak St, Hood River, OR 97031.
           <br />

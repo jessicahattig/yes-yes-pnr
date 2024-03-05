@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <Helmet>
-        <title>Title</title>
+        <title>HRBPNRD</title>
       </Helmet>
 
       <div>
