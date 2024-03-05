@@ -6,7 +6,7 @@ import Footer from './Footer';
 import PageControl from './PageControl'; 
 import './../index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Translate from './Translate';
+// import Translate from './Translate';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
 
       <div>
         <Header />
-        <Translate />
+        {/* <Translate /> */}
         <PageControl />
         <Footer />
       </div>
