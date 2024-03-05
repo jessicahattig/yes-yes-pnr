@@ -3,7 +3,7 @@ import React from 'react';
 const Events = () => {
   return (
     <div className="events-section">
-      <h1>Upcoming Events</h1>
+      <h2>Upcoming Events</h2>
       <ul>
         <li>
           <strong> Big Night in A Small Town</strong> - A thoughtfully curated, fine dining experience fundraiser dinner for Hood River Valley Parks and Recreation Campaign.

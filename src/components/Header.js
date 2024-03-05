@@ -21,13 +21,13 @@ function Header() {
             <div>
             <div style={{ display: 'flex', alignItems: 'center' }}>
             <div>
-              <span style={{ fontSize: '50px' }}>
+              <span style={{ fontSize: '35px' }}>
               Hood River Valley Parks and Recreation District 
               </span>
               </div>
               <br/>
               </div>
-              <span style={{ fontSize: '40px' }}>
+              <span style={{ fontSize: '25px' }}>
               Political Action Committee
               </span>
           </div>
@@ -36,7 +36,7 @@ function Header() {
         <Nav className="ml-auto">
           <Link to="/" className="nav-link">HOME</Link>
           <Link to="/about" className="nav-link">BALLOT MEASURE DETAILS</Link>
-          <Link to="/pac-about" className="nav-link">ABOUT HRVPRD</Link>
+          {/* <Link to="/pac-about" className="nav-link">ABOUT HRVPRD</Link> */}
           <Link to="/contact" className="nav-link">CONTACT</Link>
           <Link to="/donate" className="nav-link">DONATE</Link>
         </Nav>

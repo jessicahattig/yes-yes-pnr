@@ -6,7 +6,7 @@ function Home() {
   return (
     <div>
     <div className='ComponentHeader'>
-    <h4>Discover the vision for the future.</h4>
+    <h5 style={{ marginLeft: '10px' }}>Discover the vision for the future.</h5>
     </div>
       <Carousel interval={4500}>
         <Carousel.Item>
@@ -65,7 +65,7 @@ function Home() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <Events />
+      <Events style={{ paddingBottom: '20px' }} />
       </div>
   );
 }
