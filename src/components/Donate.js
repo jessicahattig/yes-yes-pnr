@@ -1,5 +1,4 @@
 import React from "react";
-import Translate from "./Translate";
 
 function Donate() {
   return (

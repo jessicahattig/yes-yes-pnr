@@ -15,8 +15,8 @@ function Header() {
             <img
               src="/logo.png" 
               alt="Parks and Rec Logo"
-              className="mr-2"
-              style={{ height: '150px', marginRight: '20px' }}
+              className="header-logo"
+              // style={{ height: '150px', marginRight: '20px' }}
             /></Link>
             <div>
             <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -36,7 +36,6 @@ function Header() {
         <Nav className="ml-auto">
           <Link to="/" className="nav-link">HOME</Link>
           <Link to="/about" className="nav-link">BALLOT MEASURE DETAILS</Link>
-          {/* <Link to="/pac-about" className="nav-link">ABOUT HRVPRD</Link> */}
           <Link to="/contact" className="nav-link">CONTACT</Link>
           <Link to="/donate" className="nav-link">DONATE</Link>
         </Nav>
