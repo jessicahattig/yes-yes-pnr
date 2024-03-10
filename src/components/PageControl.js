@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import About from './About';
 import Contact from './Contact';
-import InputForm from './Donate';
+import InputForm from './InputForm';
 import Home from './Home';
 import PacAbout from './PacAbout';
 

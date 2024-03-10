@@ -1,6 +1,7 @@
 import React from "react";
+import ReusableForm.js from ".Reusableform";
 
-function Donate() {
+function Input() {
   return (
     <div className="ComponentHeader">
       <h2>Donation Page is Under Construction.</h2>
@@ -8,4 +9,4 @@ function Donate() {
   );
 }
 
-export default Donate;
+export default Input;
