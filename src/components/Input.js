@@ -17,7 +17,6 @@ Input.propTypes = {
   names: PropTypes.string,
   location: PropTypes.string,
   issue: PropTypes.string,
-  formattedWaitTime: PropTypes.string,
   id: PropTypes.string,
   whenInputClicked: PropTypes.func
 }

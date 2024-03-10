@@ -10,65 +10,8 @@ import { getFirestore, collection, addDoc, onSnapshot } from 'firebase/firestore
 import { formatDistanceToNow } from 'date-fns';
 
 const firebaseConfig = {
-
-}
-// const app = initializeApp(firebaseConfig);
-// const db = getFirestore(app);
-
-function PageControl() {
-  const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
-  
-  useEffect(() => {
-    const queryByTimestamp = collection(db, "inputs");
-    const unSubscribe = onSnapshot(
-      queryByTimestamp,
-      (querySnapshot) => {
-        const tickets = [];
-        querySnapshot.forEach((doc) => {
-          const timeOpen = doc.get('timeOpen', { serverTimestamps: "estimate" }).toDate();
-          const jsDate = new Date(timeOpen);
-          tickets.push({
-            names: doc.data().names,
-            location: doc.data().location,
-            issue: doc.data().issue,
-            timeOpen: jsDate,
-            formattedWaitTime: formatDistanceToNow(jsDate),
-            id: doc.id
-          });
-        });
-        setMainTicketList(tickets);
-      },
-      (error) => {
-        setError(error.message);
-      }
-    );
-    
-    return () => unSubscribe();
-  }, []);
-
-  const handleAddingNewInput = async (newInputData) => {
-    await addDoc(collection(db, "inputs"), newInputData);
-    setFormVisibleOnPage(false);
-  }
-
-  return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/new-input-form" element={<NewInputForm />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/pac-about" element={<PacAbout />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="*" element={<Navigate to="/" />} />
-    </Routes>
-  );
-}
-
-export { db };
-export default PageControl;
-
-
-//////////////////////////
-
+  // Your Firebase configuration here
+};
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
@@ -111,12 +54,19 @@ function PageControl() {
     setFormVisibleOnPage(false);
   }
 
-  // Rest of your component...
-
+  console.log(process.env);
+  
   return (
-    // Routes and other JSX here
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/new-input-form" element={<NewInputForm />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/pac-about" element={<PacAbout />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="*" element={<Navigate to="/" />} />
+    </Routes>
   );
 }
 
-export { db }; // Export the Firestore instance for use in other files
+export { db };
 export default PageControl;

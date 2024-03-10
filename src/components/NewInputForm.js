@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types"; 
 import ReusableForm from "./ReusableForm";
 
-function NewImportForm(props){
+function NewInputForm(props){
 
   function handleNewInputFormSubmission(event) {
     event.preventDefault();
