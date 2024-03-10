@@ -7,7 +7,6 @@ import Home from './Home';
 import PacAbout from './PacAbout';
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, addDoc, onSnapshot } from 'firebase/firestore';
-import { formatDistanceToNow } from 'date-fns';
 
 const firebaseConfig = {
   // Your Firebase configuration here
@@ -18,36 +17,9 @@ const db = getFirestore(app);
 
 function PageControl() {
   const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
-  const [mainTicketList, setMainTicketList] = useState([]);
-  const [error, setError] = useState(null);
+  // const [mainTicketList, setMainTicketList] = useState([]);
+  // const [error, setError] = useState(null);
 
-  useEffect(() => {
-    const queryByTimestamp = collection(db, "inputs");
-    const unSubscribe = onSnapshot(
-      queryByTimestamp,
-      (querySnapshot) => {
-        const tickets = [];
-        querySnapshot.forEach((doc) => {
-          const timeOpen = doc.get('timeOpen', { serverTimestamps: "estimate" }).toDate();
-          const jsDate = new Date(timeOpen);
-          tickets.push({
-            names: doc.data().names,
-            location: doc.data().location,
-            issue: doc.data().issue,
-            timeOpen: jsDate,
-            formattedWaitTime: formatDistanceToNow(jsDate),
-            id: doc.id
-          });
-        });
-        setMainTicketList(tickets);
-      },
-      (error) => {
-        setError(error.message);
-      }
-    );
-
-    return () => unSubscribe();
-  }, [db]);
 
   const handleAddingNewInput = async (newInputData) => {
     await addDoc(collection(db, "inputs"), newInputData);
@@ -55,7 +27,7 @@ function PageControl() {
   }
 
   console.log(process.env);
-  
+
   return (
     <Routes>
       <Route path="/" element={<Home />} />
