@@ -37,7 +37,7 @@ function Header() {
           <Link to="/" className="nav-link">HOME</Link>
           <Link to="/about" className="nav-link">BALLOT MEASURE DETAILS</Link>
           <Link to="/contact" className="nav-link">CONTACT</Link>
-          <Link to="/donate" className="nav-link">DONATE</Link>
+          <Link to="/input-form" className="nav-link">COMMUNITY INPUT FORM</Link>
         </Nav>
       </Navbar>
       <Translate /> 
