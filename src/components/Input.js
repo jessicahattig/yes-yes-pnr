@@ -1,15 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-function Input(props){
-
+function Input(props) {
   return (
     <React.Fragment>
-      <div onClick = {() => props.whenInputClicked(props.id)}>
-        <h3>{props.location} - {props.names}</h3>
+      <div onClick={() => props.whenInputClicked(props.id)}>
+        <h3>{props.names} - {props.location}</h3>
         <p><em>{props.issue}</em></p>
-        <p><em>{props.formattedWaitTime}</em></p>
-        <hr/>
+        <hr />
       </div>
     </React.Fragment>
   );
